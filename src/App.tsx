@@ -1,10 +1,21 @@
 import "./App.css";
-
+import Navbar from "./layouts/Navbar";
+import Footer from "./layouts/Footer";
+import { Outlet } from "react-router-dom";
 function App() {
   return (
-    <>
-      <h1 className="bg-gray-700">Vite + React</h1>
-    </>
+    <div className="flex flex-col min-h-screen">
+      {/* Navbar */}
+      <Navbar />
+
+      {/* Main content */}
+      <main className="flex-grow container mx-auto px-4 py-6">
+        <Outlet />
+      </main>
+
+      {/* Footer */}
+      <Footer />
+    </div>
   );
 }
 
