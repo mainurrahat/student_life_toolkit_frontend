@@ -1,1 +1,16 @@
-@import "tailwindcss";
+ /* @tailwind utilities; */
+
+ /* @tailwind utilities; */
+ @import "tailwindcss";
+ /* Swiper & other imports */
+ @import "swiper/css";
+ @import "slick-carousel/slick/slick.css";
+ @import "slick-carousel/slick/slick-theme.css";
+
+ /* @tailwind utilities; */
+
+ /* Swiper styles */
+ @import "swiper/css";
+ /* Optional if you plan to use slick-carousel */
+ @import "slick-carousel/slick/slick.css";
+ @import "slick-carousel/slick/slick-theme.css"
