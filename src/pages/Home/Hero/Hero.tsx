@@ -1,13 +1,12 @@
 import { motion } from "framer-motion";
 import Slider from "react-slick";
+import img1 from "../../../assets/1.jpg";
+import img2 from "../../../assets/2.webp";
+import img3 from "../../../assets/3.webp";
+
+const slides = [img1, img2, img3];
 
 const Hero = () => {
-  const slides = [
-    "/images/student1.png",
-    "/images/student2.png",
-    "/images/student3.png",
-  ];
-
   const settings = {
     dots: true,
     infinite: true,
@@ -20,7 +19,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative mt-10">
       {/* Slider Background */}
       <Slider {...settings}>
         {slides.map((img, i) => (

@@ -1,32 +1,24 @@
 // src/components/Partners/Partners.tsx
-import React from "react";
+import phLogo from "../../../assets/PH.jfif"; // example path
+import tmsLogo from "../../../assets/10ms.jfif";
+import upskillLogo from "../../../assets/ups.png";
+import sheikhLogo from "../../../assets/logo.jpg";
+import edtechLogo from "../../../assets/ups.png";
 
 const partners = [
   {
     name: "Programming Hero",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/1/17/Programming_Hero_logo.png",
+    logo: phLogo,
     link: "https://www.programming-hero.com/",
   },
   {
     name: "10 Minute School",
-    logo: "https://upload.wikimedia.org/wikipedia/en/2/25/10_Minute_School_logo.png",
+    logo: tmsLogo,
     link: "https://www.10minuteschool.com/",
   },
-  {
-    name: "Upskill",
-    logo: "https://upload.wikimedia.org/wikipedia/en/f/f9/Upskill_logo.png",
-    link: "https://upskill.com.bd/",
-  },
-  {
-    name: "Sheikhupura Academy",
-    logo: "https://via.placeholder.com/150x50?text=Sheikhupura+Academy",
-    link: "#",
-  },
-  {
-    name: "EdTech Bangladesh",
-    logo: "https://via.placeholder.com/150x50?text=EdTech+Bangladesh",
-    link: "#",
-  },
+  { name: "Upskill", logo: upskillLogo, link: "https://upskill.com.bd/" },
+  { name: "Sheikhupura Academy", logo: sheikhLogo, link: "#" },
+  { name: "EdTech Bangladesh", logo: edtechLogo, link: "#" },
 ];
 
 const Partners = () => {
